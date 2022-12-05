@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: rgb(24, 22, 22);
+  display: flex;
+  max-height: 200px;
+  justify-content: space-around;
+}
+
+.navbarlist {
+  display: flex;
+  align-items: center;
+}
+.navbar__logo {
+  width: 120px;
+}
+
+.navbarlist__item {
+  display: flex;
+  margin: 40px;
+}
+
+a{
+    color: aliceblue;
+}
+a:hover{
+    color: red;
+  }
+  a:active{
+    color: blue;
+  }
+  .main {
+    height: 600px;
+  }
+  .mainlogo1 {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+ .concepto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  width: 32%;
+  margin-left: 35%;
+ }
+  .conceptoh1 {
+    justify-content: center;
+    color: aliceblue;
+  }
+  .conceptop1 {
+    justify-content: center;
+    color: aliceblue;
+    margin: 5% 5% 0 5%;
+  }

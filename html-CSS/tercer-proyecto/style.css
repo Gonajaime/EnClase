@@ -1,0 +1,136 @@
+html,
+body {
+  background-color: aquamarine;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  color: aliceblue;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: blue;
+}
+
+.navbar {
+  background-color: rgb(24, 22, 22);
+  display: flex;
+  max-height: 200px;
+  height: 15%;
+  justify-content: space-around;
+}
+
+.navbarlist {
+  display: flex;
+  align-items: center;
+}
+.navbar__logo {
+  width: 120px;
+}
+
+.navbarlist__item {
+  display: flex;
+  margin: 40px;
+}
+
+#main {
+  height: 100%;
+  background-color: rgb(240, 232, 232);
+}
+.mainlogo1 {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+#concepto {
+  height: 100%;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+}
+.concepto-texto {
+    width: 35%;
+    height: auto;    
+    text-align: center;
+    background-color: rgb(0, 0, 5);
+    padding: 2rem;
+}
+
+.concepto-texto h1, .concepto-texto p {
+    color: aliceblue;
+}
+.concepto-texto p{
+    margin: 5% 5% 0 5%;
+}
+
+#parrilla {
+  background-color: rgb(93, 129, 33);
+  
+}
+.imagen img{
+    width: 100%;
+}
+.galeria{
+    background-color: rgb(176, 189, 155);
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+    padding: 3%;
+    
+}
+#carta {
+  height: 100%;
+  background-color: darkolivegreen;
+  text-transform: uppercase;
+}
+#carta h1 {
+    text-align: center;
+}
+#carta ul {
+    text-decoration: underline;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem 25rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    line-height: 4rem;
+    color: black;  
+}
+.salados, .salados-precio, .dulces, .dulces-precio, #carta h1,  .carta-nav {
+    background-color: aliceblue;
+}
+#reservas {
+  height: 100%;
+  background-color: rgb(243, 232, 232);
+}
+#blog {
+  height: 100%;
+  background-color: black;
+}
+#direccion {
+  height: 100%;
+  background-color: rgb(36, 167, 58);
+}
+#siguenos {
+  height: 100%;
+  background-color: rgb(185, 23, 23);
+}
+#footer {
+  height: 100%;
+  background-color: black;
+}
